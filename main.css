@@ -1,0 +1,23 @@
+HTML, BODY {
+    
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+    background-color: rgb(71, 2, 90);
+    background-image: 
+      linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
+      linear-gradient(rgb(71, 2, 90), #000);
+  }
+  #price-display {
+    width: 450px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 600px;
+    padding: 5px;
+    text-align: left;
+  }
